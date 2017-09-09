@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: kapapa
+
+  thymeleaf:
+    mode: LEGACYHTML5
+
+management:
+  port: 7979
+  context-path: /management
+  security:
+    enabled: false
+
+zauth:
+    authorization-endpoint: https://sandbox.identity.zalando.com/oauth2/authorize
+    token-endpoint: https://sandbox.identity.zalando.com/oauth2/token
+    custom-params:
+      business_partner_id: 821d1d00-4312-43e5-bd31-d8373fdd24d8
