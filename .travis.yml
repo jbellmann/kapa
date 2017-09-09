@@ -3,4 +3,6 @@ sudo: true # faster builds
 jdk:
   - oraclejdk8
 script:
+  - sudo apt-get install -y nodejs npm
+  - npm install -g @angular/cli
   - ./mvnw clean package
