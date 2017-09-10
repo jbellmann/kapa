@@ -1,5 +1,3 @@
 # kapapa
 
 An Example
-
-trigger

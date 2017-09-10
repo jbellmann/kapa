@@ -1,5 +1,6 @@
 language: java
 sudo: true # faster builds
+install: mvn dependency:resolve
 jdk:
   - oraclejdk8
 script:
