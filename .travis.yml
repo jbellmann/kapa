@@ -6,4 +6,4 @@ jdk:
 script:
   - sudo apt-get install -y nodejs npm
   - npm install -g @angular/cli
-  - ./mvnw clean package
+  - ./mvnw clean package -Dmaven.test.skip
